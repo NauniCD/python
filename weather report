@@ -1,0 +1,14 @@
+M=101
+T=101
+W=100
+Th=100
+F=103
+S=103
+Su=103
+y=(M+T+W+Th+F+S+Su)/7
+print('the temp this week is',M, 'degrees')
+print('the stupidly hot temp will be over a')
+print('100 degrees all week')
+print('the avg temp will be', y,)
+print('and this is without counting the humidity')
+print('with humidity its',M+3,)
