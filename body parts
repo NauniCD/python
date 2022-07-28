@@ -1,0 +1,33 @@
+people=15
+teeth=32
+arms=2
+bones=206
+fingers=10
+toes=10
+
+
+total_teeth=people * teeth
+total_arms=people * arms
+total_bones=people * bones
+total_fingers=people*fingers
+total_toes=people*toes
+
+bonustotal_teeth=(people+10) * teeth
+bonustotal_arms=(people+10) * arms
+bonustotal_bones=(people+10) * bones
+bonustotal_fingers=(people+10)*fingers
+bonustotal_toes=(people+10)*toes
+
+print('lets count body parts')
+print('there are', total_teeth,'teeth')
+print('there are', total_arms, 'arms')
+print('there are', total_bones, 'bones')
+print('there are', total_fingers, 'fingers')
+print('there are', total_toes, 'toes')
+
+print('lets count bonus body parts')
+print('there are', bonustotal_teeth,'teeth')
+print('there are', bonustotal_arms, 'arms')
+print('there are', bonustotal_bones, 'bones')
+print('there are', bonustotal_fingers, 'fingers')
+print('there are', bonustotal_toes, 'toes')
